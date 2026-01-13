@@ -1,0 +1,126 @@
+.schedule-container {
+  padding: 12px;
+}
+
+.calendar-title {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: var(--Neutral-90);
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(135deg, #0b1b2b 0%, #13273b 100%);
+  color: #e6edf3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.calendar-table thead th {
+  text-align: left;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  font-weight: 600;
+}
+
+.calendar-table tbody td {
+  vertical-align: top;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.calendar-table tbody tr td:last-child {
+  border-right: none;
+}
+
+.calendar-table .out-month {
+  opacity: 0.5;
+}
+
+.calendar-table .day-number {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.calendar-table .badge.work-type {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  background: rgba(0, 163, 255, 0.2);
+  color: #7fd3ff;
+  font-size: 12px;
+}
+
+.calendar-table .content {
+  white-space: pre-wrap;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #d0d7de;
+}
+
+.calendar-table .today {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+
+.quick-actions {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.quick-actions .row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.quick-actions .label {
+  color: #9fb3c8;
+}
+
+.quick-actions .value {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.quick-actions .chip {
+  background: rgba(0, 163, 255, 0.18);
+  color: #7fd3ff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.quick-actions .input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.06);
+  color: #e6edf3;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.quick-actions .buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.quick-actions .apply,
+.quick-actions .download {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
