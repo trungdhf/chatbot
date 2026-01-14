@@ -22,7 +22,6 @@ import {
   Modality,
   Type,
 } from "@google/genai";
-
 const declaration: FunctionDeclaration = {
   name: "render_altair",
   description: "Displays an altair graph in json format.",
